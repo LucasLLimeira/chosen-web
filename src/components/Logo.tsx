@@ -43,7 +43,7 @@ export function Logo() {
         type="button"
         onClick={toggleTheme}
         aria-label="Alternar Tema"
-        className={`relative mx-1 w-10 h-5.5 rounded-full p-0.5 transition-all duration-300 ease-in-out focus:outline-none ${
+        className={`relative mx-0.5 w-10 h-5.5 rounded-full p-0.5 transition-all duration-300 ease-in-out focus:outline-none ${
           isDark
             ? "bg-chosen-green shadow-[0_0_12px_#00FF66]"
             : "bg-transparent border-1 border-black dark:border-white shadow-[0_0_12px_#000000]"
@@ -51,10 +51,10 @@ export function Logo() {
       >
         {/* Bolinha Interna Animada */}
         <div
-          className={`w-4 h-4 rounded-full transition-all duration-300 ease-in-out transform ${
+          className={`w-3.5 h-3.5 rounded-full transition-all duration-300 ease-in-out transform ${
             isDark
-              ? "translate-x-4.5 bg-white shadow-md"
-              : "translate-x-0 bg-black dark:bg-white"
+              ? "translate-x-4.5 bg-black shadow-md"
+              : "translate-x-1 bg-black dark:bg-white"
           }`}
         />
       </button>
