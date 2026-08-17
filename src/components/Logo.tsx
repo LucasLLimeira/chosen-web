@@ -46,15 +46,15 @@ export function Logo() {
         className={`relative mx-0.5 w-10 h-5.5 rounded-full p-0.5 transition-all duration-300 ease-in-out focus:outline-none ${
           isDark
             ? "bg-chosen-green shadow-[0_0_12px_#00FF66]"
-            : "bg-transparent border-1 border-black dark:border-white shadow-[0_0_12px_#000000]"
+            : "bg-transparent border border-black dark:border-white shadow-[0_0_12px_#000000]"
         }`}
       >
         {/* Bolinha Interna Animada */}
         <div
           className={`w-3.5 h-3.5 rounded-full transition-all duration-300 ease-in-out transform ${
             isDark
-              ? "translate-x-4.5 bg-black shadow-md"
-              : "translate-x-1 bg-black dark:bg-white"
+              ? "translate-x-4.5 bg-chosen-bg/90 shadow-md"
+              : "translate-x-1 dark:bg-white shadow-md dark:shadow-[0_0_8px_#FFFFFF] bg-black"
           }`}
         />
       </button>
