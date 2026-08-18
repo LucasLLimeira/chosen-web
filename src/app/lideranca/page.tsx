@@ -24,7 +24,7 @@ const council: CouncilMember[] = [
   {
     name: "Jasson Machado",
     role: "Líder Geral CHOSEN",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400",
   },
   {
     name: "Maria Eduarda Marques",
@@ -39,7 +39,7 @@ const council: CouncilMember[] = [
   {
     name: "Maria Eduarda Ferraro",
     role: "Conselho CHOSEN",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=400",
   },
 ];
 
